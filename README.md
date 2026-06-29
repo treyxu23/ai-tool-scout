@@ -1,6 +1,8 @@
 # 🔍 AI Tool Scout
 
-> 自动发现 AI 工具 → Safari 浏览器实测 → 生成深度调研报告 → 输出视频选题建议
+> **Automated AI tool discovery & hands-on research** — scan ProductHunt, GitHub, HN, open tools in real Safari, generate structured reports with video选题 suggestions.
+>
+> 自动发现 AI 工具 → Safari 浏览器实测 → 生成深度调研报告 + 视频选题建议。Claude Code & Hermes Skill。
 
 [![SKILL.md Valid](https://github.com/treyxu23/ai-tool-scout/actions/workflows/validate.yml/badge.svg)](https://github.com/treyxu23/ai-tool-scout/actions/workflows/validate.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
