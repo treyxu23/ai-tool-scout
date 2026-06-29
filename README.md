@@ -2,6 +2,7 @@
 
 > 自动发现 AI 工具 → Safari 浏览器实测 → 生成深度调研报告 → 输出视频选题建议
 
+[![SKILL.md Valid](https://github.com/treyxu23/ai-tool-scout/actions/workflows/validate.yml/badge.svg)](https://github.com/treyxu23/ai-tool-scout/actions/workflows/validate.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Platform: macOS](https://img.shields.io/badge/platform-macOS-lightgrey)](https://github.com/achiya-automation/safari-mcp)
 [![Hermes Skill](https://img.shields.io/badge/Hermes-Skill-blue)](https://github.com/nousresearch/hermes-agent)
@@ -59,6 +60,8 @@ AI Tool Scout 启动：
 ```
 
 ## ⚡ 能做什么
+
+![Terminal Demo](assets/demo-terminal.svg)
 
 ### 1. 赛道扫描
 
@@ -138,6 +141,8 @@ git clone https://github.com/treyxu23/ai-tool-scout.git \
 | 文件 | 内容 |
 |------|------|
 | [SKILL.md](SKILL.md) | 核心 Skill — 四阶段工作流、触发条件、常见坑 |
+| [REAL-WORLD.md](REAL-WORLD.md) | 真实使用场景 |
+| [CHANGELOG.md](CHANGELOG.md) | 版本记录 |
 | [references/deep-research-format.md](references/deep-research-format.md) | 深度调研文档模板 |
 | [references/source-strategies.md](references/source-strategies.md) | 各数据源搜索策略 |
 | [templates/comparison-report.md](templates/comparison-report.md) | 多工具对比模板 |

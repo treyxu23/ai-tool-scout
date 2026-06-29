@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 420" width="740" height="420">
+  <defs>
+    <linearGradient id="termBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1b26"/>
+      <stop offset="100%" stop-color="#16161e"/>
+    </linearGradient>
+  </defs>
+  <rect width="740" height="420" rx="10" fill="url(#termBg)"/>
+  <rect width="740" height="30" rx="10" fill="#1f2335"/>
+  <rect y="20" width="740" height="10" fill="#1f2335"/>
+  <circle cx="20" cy="15" r="6" fill="#f7768e"/>
+  <circle cx="40" cy="15" r="6" fill="#e0af68"/>
+  <circle cx="60" cy="15" r="6" fill="#9ece6a"/>
+  <text x="370" y="20" font-family="SF Mono,Menlo,monospace" font-size="11" fill="#565f89" text-anchor="middle">Terminal — ai-tool-scout</text>
+
+  <!-- Phase labels -->
+  <rect x="18" y="45" width="100" height="22" rx="4" fill="#1f6feb" opacity="0.25"/>
+  <text x="68" y="60" font-family="SF Mono,Menlo,monospace" font-size="11" fill="#58a6ff" text-anchor="middle">🔍 PHASE 1</text>
+
+  <rect x="18" y="140" width="100" height="22" rx="4" fill="#a371f7" opacity="0.25"/>
+  <text x="68" y="155" font-family="SF Mono,Menlo,monospace" font-size="11" fill="#a371f7" text-anchor="middle">🦊 PHASE 2</text>
+
+  <rect x="18" y="285" width="100" height="22" rx="4" fill="#238636" opacity="0.25"/>
+  <text x="68" y="300" font-family="SF Mono,Menlo,monospace" font-size="11" fill="#3fb950" text-anchor="middle">📊 PHASE 3</text>
+
+  <!-- Phase 1 content -->
+  <text x="130" y="60" font-family="SF Mono,Menlo,monospace" font-size="12" fill="#c0caf5">> 扫描 AI 视频工具赛道</text>
+  <text x="130" y="80" font-family="SF Mono,Menlo,monospace" font-size="11" fill="#565f89">  ProductHunt: 找到 ClipStudio AI (847票), VideoForge (532票)</text>
+  <text x="130" y="98" font-family="SF Mono,Menlo,monospace" font-size="11" fill="#565f89">  GitHub Trending: 找到 OpenVid (⭐1,200)</text>
+  <text x="130" y="116" font-family="SF Mono,Menlo,monospace" font-size="11" fill="#565f89">  Hacker News: 找到 MotionCraft (291票)</text>
+  <text x="130" y="134" font-family="SF Mono,Menlo,monospace" font-size="12" fill="#9ece6a">  → 4 个候选，过滤掉 1 个（企业版），保留 3 个</text>
+
+  <!-- Phase 2 content -->
+  <text x="130" y="170" font-family="SF Mono,Menlo,monospace" font-size="12" fill="#565f89">  safari_navigate("clipstudio.ai")</text>
+  <text x="130" y="188" font-family="SF Mono,Menlo,monospace" font-size="11" fill="#9ece6a">  → 提取: AI视频编辑, 免费版5次导出/月, Pro $19/月</text>
+  <text x="130" y="206" font-family="SF Mono,Menlo,monospace" font-size="11" fill="#9ece6a">  → 📸 截图已保存</text>
+
+  <text x="130" y="228" font-family="SF Mono,Menlo,monospace" font-size="12" fill="#565f89">  safari_navigate("videoforge.io")</text>
+  <text x="130" y="246" font-family="SF Mono,Menlo,monospace" font-size="11" fill="#e0af68">  → ⚠️ 登录墙，有限调研</text>
+
+  <text x="130" y="268" font-family="SF Mono,Menlo,monospace" font-size="12" fill="#565f89">  safari_navigate("github.com/openvid")</text>
+  <text x="130" y="286" font-family="SF Mono,Menlo,monospace" font-size="11" fill="#9ece6a">  → 提取: 开源MIT, ⭐1.2K, 本地部署</text>
+
+  <!-- Phase 3 content -->
+  <text x="130" y="318" font-family="SF Mono,Menlo,monospace" font-size="12" fill="#c0caf5">  ✅ 生成 3 份深度调研报告</text>
+  <text x="130" y="338" font-family="SF Mono,Menlo,monospace" font-size="11" fill="#565f89">     工具库/ClipStudio AI 深度调研.md</text>
+  <text x="130" y="356" font-family="SF Mono,Menlo,monospace" font-size="11" fill="#565f89">     工具库/VideoForge 深度调研.md (登录墙)</text>
+  <text x="130" y="374" font-family="SF Mono,Menlo,monospace" font-size="11" fill="#565f89">     工具库/OpenVid 深度调研.md</text>
+
+  <text x="130" y="398" font-family="SF Mono,Menlo,monospace" font-size="12" fill="#3fb950">  🎬 选题建议: ClipStudio AI 🔥🔥🔥 → 明天就录</text>
+</svg>

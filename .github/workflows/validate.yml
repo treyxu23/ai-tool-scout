@@ -1,0 +1,35 @@
+name: Validate SKILL.md
+
+on:
+  push:
+    paths:
+      - 'SKILL.md'
+  pull_request:
+    paths:
+      - 'SKILL.md'
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install pyyaml
+      - run: |
+          python3 -c "
+          import yaml, re
+          content = open('SKILL.md').read()
+          assert content.startswith('---'), 'Must start with ---'
+          m = re.search(r'\n---\s*\n', content[3:])
+          assert m, 'Missing closing ---'
+          fm = yaml.safe_load(content[3:m.start()+3])
+          assert 'name' in fm, 'Missing name'
+          assert 'description' in fm, 'Missing description'
+          assert len(fm['description']) <= 1024, f'Description too long: {len(fm[\"description\"])}'
+          assert len(fm['name']) <= 64, f'Name too long'
+          assert content[m.start()+4:].strip(), 'Empty body'
+          print(f'✅ SKILL.md valid: name={fm[\"name\"]}')
+          "
