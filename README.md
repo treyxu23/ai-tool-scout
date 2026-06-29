@@ -100,6 +100,33 @@ AI Tool Scout 启动：
 
 扫描最新工具 → 按「免费 + 有 demo + 视觉效果好 + 话题性」打分 → 输出优先级排序。
 
+## 🆚 对比手动调研
+
+| 步骤 | 手动 | AI Tool Scout |
+|------|------|---------------|
+| 扫描 ProductHunt | 打开网页，手动翻 5 页，记笔记，15 分钟 | `web_search` 并行搜 4 个源，5 秒 |
+| 打开工具官网 | 逐个点开，等加载，5 个工具 × 2 分钟 = 10 分钟 | `safari_navigate` 自动打开，截图，30 秒/个 |
+| 提取功能/价格 | 肉眼扫官网，手动打字，5 分钟/个 | `safari_read_page` + JS 提取，即时 |
+| 写调研报告 | 开 Obsidian，排版，贴截图，30 分钟 | 按模板自动生成，保存到工具库，即时 |
+| 选题建议 | 凭着感觉想，经常忘，10 分钟 | 按规则打分（免费/demo/视觉效果/话题性），自动排序 |
+| **总计** | **~90 分钟** | **~5 分钟** |
+
+### 和纯 web_search 的区别
+
+很多人用 ChatGPT/Claude 的 web_search 搜工具。问题是：
+
+```
+❌ web_search: "Claude Code 有什么竞品"
+   → 返回的是博客文章、对比评测、二手信息
+   → 看不到官网真实界面、不知道实际价格、没法截图
+
+✅ AI Tool Scout:
+   → 搜到竞品后，用 Safari 打开官网亲自看
+   → 提取真实价格（不是半年前的博客写的旧价格）
+   → 截图留档，用于视频素材
+   → 生成可复用的 Obsidian 笔记
+```
+
 ## 🏗️ 架构
 
 ```
@@ -177,6 +204,10 @@ git clone https://github.com/treyxu23/ai-tool-scout.git \
 - macOS with Safari MCP installed
 
 ---
+
+## ⭐ Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=treyxu23/ai-tool-scout&type=Date)](https://star-history.com/#treyxu23/ai-tool-scout&Date)
 
 ## License
 
