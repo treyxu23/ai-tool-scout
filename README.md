@@ -62,7 +62,7 @@ AI Tool Scout 启动：
 
 ## ⚡ 能做什么
 
-![Terminal Demo](assets/demo-terminal.svg)
+![Terminal Demo](assets/demo-animated.svg)
 
 ### 1. 赛道扫描
 
