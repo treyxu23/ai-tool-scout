@@ -5,6 +5,7 @@
 [![SKILL.md Valid](https://github.com/treyxu23/ai-tool-scout/actions/workflows/validate.yml/badge.svg)](https://github.com/treyxu23/ai-tool-scout/actions/workflows/validate.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Platform: macOS](https://img.shields.io/badge/platform-macOS-lightgrey)](https://github.com/achiya-automation/safari-mcp)
+[![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-8A2BE2)](https://github.com/treyxu23/ai-tool-scout)
 [![Hermes Skill](https://img.shields.io/badge/Hermes-Skill-blue)](https://github.com/nousresearch/hermes-agent)
 [![Depends on](https://img.shields.io/badge/depends-safari--web--agent-orange)](https://github.com/treyxu23/safari-web-agent)
 
@@ -124,12 +125,17 @@ ai-tool-scout
 
 ## 📦 安装
 
-### 前置条件
+> 支持 **Claude Code** 和 **Hermes**。需先安装 [safari-web-agent](https://github.com/treyxu23/safari-web-agent)。
 
-- [safari-web-agent](https://github.com/treyxu23/safari-web-agent)（提供 Safari MCP 浏览器操控）
-- Obsidian vault（报告输出路径）
+### Claude Code
 
-### 安装 Skill
+```bash
+# 在 Claude Code 中运行：
+/plugin marketplace add treyxu23/ai-tool-scout
+/plugin install ai-tool-scout@ai-tool-scout
+```
+
+### Hermes
 
 ```bash
 git clone https://github.com/treyxu23/ai-tool-scout.git \

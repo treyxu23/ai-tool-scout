@@ -1,0 +1,21 @@
+{
+  "name": "ai-tool-scout",
+  "version": "1.0.0",
+  "description": "自动发现 AI 工具 · Safari 实测 · 生成深度调研报告 + 视频选题建议。需要 safari-web-agent 和 Safari MCP。",
+  "author": {
+    "name": "徐二三 (trey)"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/treyxu23/ai-tool-scout",
+  "keywords": [
+    "claude-skill",
+    "claude-code",
+    "ai-tools",
+    "research",
+    "tool-discovery",
+    "content-creation",
+    "safari",
+    "mcp"
+  ],
+  "category": "research"
+}
