@@ -5,7 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Platform: macOS](https://img.shields.io/badge/platform-macOS-lightgrey)](https://github.com/achiya-automation/safari-mcp)
 [![Hermes Skill](https://img.shields.io/badge/Hermes-Skill-blue)](https://github.com/nousresearch/hermes-agent)
-[![Depends on](https://img.shields.io/badge/depends-safari--web--agent-orange)](https://github.com/treyxu23/trey-safari-web-agent)
+[![Depends on](https://img.shields.io/badge/depends-safari--web--agent-orange)](https://github.com/treyxu23/safari-web-agent)
 
 ---
 
@@ -123,13 +123,13 @@ ai-tool-scout
 
 ### 前置条件
 
-- [safari-web-agent](https://github.com/treyxu23/trey-safari-web-agent)（提供 Safari MCP 浏览器操控）
+- [safari-web-agent](https://github.com/treyxu23/safari-web-agent)（提供 Safari MCP 浏览器操控）
 - Obsidian vault（报告输出路径）
 
 ### 安装 Skill
 
 ```bash
-git clone https://github.com/treyxu23/trey-ai-tool-scout.git \
+git clone https://github.com/treyxu23/ai-tool-scout.git \
   ~/.hermes/profiles/<profile>/skills/ai-tool-scout/
 ```
 
@@ -154,13 +154,13 @@ A Hermes Skill that automates the AI tool discovery and research pipeline: scan 
 ### Quick Start
 
 ```bash
-git clone https://github.com/treyxu23/trey-ai-tool-scout.git \
+git clone https://github.com/treyxu23/ai-tool-scout.git \
   ~/.hermes/profiles/<profile>/skills/ai-tool-scout/
 ```
 
 ### Requires
 
-- [safari-web-agent](https://github.com/treyxu23/trey-safari-web-agent) — for real Safari browser automation
+- [safari-web-agent](https://github.com/treyxu23/safari-web-agent) — for real Safari browser automation
 - macOS with Safari MCP installed
 
 ---
@@ -171,5 +171,5 @@ MIT
 
 ## Credits
 
-Built on [safari-web-agent](https://github.com/treyxu23/trey-safari-web-agent) and [Safari MCP](https://github.com/achiya-automation/safari-mcp).  
+Built on [safari-web-agent](https://github.com/treyxu23/safari-web-agent) and [Safari MCP](https://github.com/achiya-automation/safari-mcp).  
 Inspired by 花叔's product-line strategy: turn daily workflow into reusable skills.
