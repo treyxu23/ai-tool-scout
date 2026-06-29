@@ -1,0 +1,10 @@
+# AI Tool Scout — .gitignore
+.DS_Store
+._*
+.vscode/
+.idea/
+node_modules/
+*.log
+*.tmp
+*.swp
+*~
