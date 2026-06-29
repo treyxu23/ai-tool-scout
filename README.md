@@ -15,51 +15,42 @@
 
 **中文** | [English](#english)
 
+> 我叫徐二三，一行代码都不会写。但用 AI 做出了这个——自动发现工具、打开实测、生成调研报告。90 分钟的手工活，它 5 分钟干完。
+
 ## 🤔 痛点
 
-做 AI 工具教程的人，每天重复同一件事：
+做 AI 工具内容的人，每天花 90 分钟做同一件事：
 
 ```
-打开 ProductHunt → 翻 20 个工具
-  → 点开 5 个官网 → 手动截图
-    → 提取功能、价格、亮点
-      → 对比竞品
-        → 写选题建议
-          → 1 小时过去了
+打开 ProductHunt → 手动翻 5 页 → 点开 5 个官网 → 截图 → 记笔记
+→ 写调研报告 → 想选题角度 → 1.5 小时过去了
 ```
 
-花叔说他「一行代码不会写」，但这套流程他会。你不会？现在也不用会了。
+## 🦊 解法：一句话，全自动
 
-## 🦊 解法
-
-**AI Tool Scout** — 你告诉它想看什么赛道，它自动搞定剩下的。
+你告诉它想看什么赛道。它自动搞定剩下的。
 
 ```bash
-$ hermes
-> 帮我扫描一下这周新出的 AI 视频工具
+$ 「帮我扫描这周新出的 AI 视频工具」
 
-AI Tool Scout 启动：
-  🔍 Phase 1: 扫描 ProductHunt + GitHub + HN
-  → 找到 6 个候选工具
-  → 过滤掉 2 个（ChatGPT wrapper / 企业版）
+🔍 Phase 1 — 发现
+  ProductHunt: 3 个候选  |  GitHub: 1 个  |  HN: 1 个
+  → 过滤掉 2 个（ChatGPT wrapper / 企业版 $99/月）
+  → 保留 3 个
 
-  🦊 Phase 2: Safari 实测
-  → ClipStudio AI     | 打开官网 | 截图 | 提取功能+价格 | ✅
-  → VideoForge        | 打开官网 | 截图 | 提取功能+价格 | ✅
-  → MotionCraft       | 打开官网 | 需要登录 → 有限调研 | ⚠️
+🦊 Phase 2 — Safari 实测
+  → clipstudio.ai     | 提取功能+价格 | 截图 ✅
+  → videoforge.io     | 登录墙，有限调研 ⚠️
+  → github.com/openvid | 开源 MIT, ⭐1.2K ✅
 
-  📊 Phase 3: 生成报告
-  → 工具库/ClipStudio AI 深度调研.md
-  → 工具库/VideoForge 深度调研.md
-  → 工具库/MotionCraft 深度调研.md
-  → 选题池.md 追加 3 条
+📊 Phase 3 — 产出
+  ✅ 3 份深度调研报告 → Obsidian 工具库
+  ✅ 3 条选题追加 → 选题池
+  🎬 首选: ClipStudio AI 🔥🔥🔥 → 免费+有demo → 明天就录
+```
 
-  🎬 选题建议:
-  🔥🔥🔥 ClipStudio AI — 免费 + 有 demo + 视觉效果好 → 明天就录
-  🔥🔥 VideoForge — 有试用 + 功能清晰 → 排入下周
-  🔥 MotionCraft — 登录墙 → 低优先级
-
-✅ 3 份深度调研 + 1 份对比表 + 选题建议，全程 5 分钟
+> [!IMPORTANT]
+> **90 分钟 → 5 分钟。** 不是「帮你省时间」，是把你从重复劳动里解放出来，专注做只有你能做的事——录视频、做内容。
 ```
 
 ## ⚡ 能做什么
